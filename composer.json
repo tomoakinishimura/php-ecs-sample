@@ -1,0 +1,15 @@
+{
+    "name": "utahta/php-ecs-sample",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "utahta",
+            "email": "labs.ninxit@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": { "": "src/" }
+    }
+}

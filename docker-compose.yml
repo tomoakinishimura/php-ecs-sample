@@ -1,0 +1,14 @@
+version: "3.4"
+
+services:
+  nginx:
+    build:
+     context: .
+     dockerfile: Dockerfile-nginx
+    ports:
+      - "8080:80"
+    depends_on:
+      - phpfpm
+  phpfpm:
+    build:
+     context: .
